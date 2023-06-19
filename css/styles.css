@@ -78,10 +78,6 @@ margin-right: 76px;
    color: var(--footer-color);
 }
 
-.hero-section {
-   padding: 188px 0;
-}
-
 .menu {
    display: flex;
    gap: 40px;
@@ -141,7 +137,8 @@ margin-left: 232px;
 .hero {
     background-color: var(--main-color);
     width: 1440px;
-    padding: ;
+    padding: 188px 0;
+
  }
 
  .hero-title {
@@ -152,8 +149,7 @@ margin-left: 232px;
     line-height: 1.07;
    letter-spacing: 0.02em;
    text-align: center;
-   width: 496px;
-   padding: 182px 472px 298px 472px;
+   max-width: 496px;
  }
 
  .hero-button {
@@ -165,12 +161,12 @@ margin-left: 232px;
     line-height: 1.5;
     cursor: pointer;
    letter-spacing: 0.04em;
+   border-radius: 4px;
+   cursor: pointer;
    display: block;
    min-width: 169px;
    height: 56px;
    border: none;
-   border-radius: 4px;
-   cursor: pointer;
  }
 
 .hero-button:hover,
