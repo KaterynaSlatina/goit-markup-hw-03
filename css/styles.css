@@ -31,20 +31,19 @@ ol {
    padding-left: 0;
 }
  
-.header .list .link{
-   display: flex;
-   gap: 40;
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
-
 .logo-header {
-   color: var(--main-color);
-   display: flex;
+color: var(--main-color);
+display: flex;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-
-  
+padding-left: 156px;
 }
 
 .logo {
@@ -56,19 +55,17 @@ padding: 0px;
    text-transform: uppercase;
    line-height: 1.17;
    letter-spacing: 0.03em;
-   display: flex;
-      padding-left: 156px;
-   
-
+   padding-left: 156px;
 }
 
 .logo-footer {
    color: var(--footer-color);
 }
 
+
 .link {
    text-decoration: none;
-   
+   display: block;
 }
 
  .list {
@@ -76,6 +73,7 @@ padding: 0px;
    font-size: 16px;
    list-style: none;
 letter-spacing: 0.02em;
+display: block;
 
 
  }
