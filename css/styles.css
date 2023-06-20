@@ -358,7 +358,7 @@ width: calc((100% - 48px) / 3);
 .portfolio-button:hover,
 .portfolio-button:focus {
    background-color: var(--hover-color);
-      color: var(--inner-color);
+   color: var(--inner-color);
    border: 1px solid transparent;
 }
 
@@ -378,24 +378,6 @@ padding: 32px 16p;
 border: 1px solid var(--border-color);
 border-top: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  .footer {
     background-color: var(--main-color);
@@ -418,10 +400,7 @@ border-top: none;
  }
 
  .logo-footer {
-    color: var(--footer-color);
-   display: flex;
-     
-      
+    color: var(--footer-color);      
  }
 
  .text-footer {
