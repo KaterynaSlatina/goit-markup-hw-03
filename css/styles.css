@@ -68,10 +68,6 @@ border-bottom: 1px solid #e7e9fc;
 display: flex;
 }
 
-.header-container {
-display: flex;
-}
-
 .logo-header {
 color: var(--main-color);
 margin-right: 76px;
@@ -338,9 +334,9 @@ width: calc((100% - 48px) / 3);
       text-transform: uppercase;
       line-height: 1.17;
       letter-spacing: 0.03em;
-      display: flex;
       margin-bottom: 16px;
       align-items: center;
+      display: inline-block;
  }
 
  .logo-footer {
