@@ -173,6 +173,10 @@ margin-left: 232px;
     background-color: var(--hover-color);
 }
 
+.advantages-list {
+   width: calc((100% - 72px) / 4);
+}
+
  .header-title {
    font-family: 'Roboto',
       sans-serif;
@@ -181,6 +185,8 @@ margin-left: 232px;
     color: var(--main-color);
     letter-spacing: 0.02em;
    line-height: 1.2;
+   margin-bottom: 8px;
+
  }
 
  .header-title-portfolio {
@@ -197,6 +203,8 @@ margin-left: 232px;
    letter-spacing: 0.02em;
    color: var(--text-color);
    line-height: 1.5;
+   display: flex;
+   gap: 24px;
 
 }
 
@@ -220,6 +228,20 @@ margin-left: 232px;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    color: var(--main-color);
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
 
 .section-our-team {
@@ -247,6 +269,10 @@ margin-left: 232px;
     background-color: var(--hover-color);
     color: var(--inner-color);
  }
+
+.advantages {
+   padding: 120px 0;
+}
 
  .footer {
     background-color: var(--main-color);
