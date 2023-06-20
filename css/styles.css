@@ -55,6 +55,7 @@ button {
 
 .header-container {
    display: flex;
+   align-items: center;
 }
 
 .header-nav {
