@@ -53,6 +53,10 @@ button {
    padding: 0 15px;
 }
 
+.header-container {
+   display: flex;
+}
+
 .header-nav {
    display: flex;
    align-items: center;
